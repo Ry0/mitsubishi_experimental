@@ -1,0 +1,3 @@
+<launch>
+  <include file="$(find mitsubishi_rv7f_gazebo)/launch/rv7f/rv7f_empty_world.launch"/>
+</launch>
