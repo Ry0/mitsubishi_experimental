@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mitsubishi_rv7f_description
+    relative_path: robots/rv7f/urdf/rv7f.urdf
+  SRDF:
+    relative_path: config/rv7f.srdf
+  CONFIG:
+    generated_timestamp: 1457192462
