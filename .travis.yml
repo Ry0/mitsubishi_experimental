@@ -54,7 +54,6 @@ notifications:
   email:
     on_success: never
     on_failue: never
-  slack: nishida-lab:z78v1yQRiOylt3CTGNuY9PUf
 
 # Configuration variables. All variables are global now, but this can be used to
 # trigger a build matrix for different ROS distributions if desired.
