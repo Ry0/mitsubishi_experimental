@@ -81,7 +81,7 @@
     </spherical_coordinates>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>1.15724 -1.00512 0.71686 0 0.275643 2.35619</pose>
+        <pose>1.85768 -1.62211 1.3388 0 0.411643 2.34419</pose>
         <view_controller>orbit</view_controller>
       </camera>
     </gui>
