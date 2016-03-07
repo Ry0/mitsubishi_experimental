@@ -122,7 +122,7 @@
     <child link="link_3"/>
     <axis xyz="0 1 0"/>
     <dynamics dampint="0.7" friction="0.7"/>
-    <limit effort="30.0" lower="-1.57079637" upper="1.151917338" velocity="7.85398185"/>
+    <limit effort="30.0" lower="-1.57079635255" upper="1.151917338" velocity="7.85398185"/>
   </joint>
   <link name="link_4">
     <visual>
@@ -137,7 +137,7 @@
     </collision>
     <inertial>
       <mass value="2.764278"/>
-      <inertia ixx="0.005405" ixy="-0.000329" ixz="0.000192" iyy="0.080630" iyz="0.081901" izz="0.081901"/>
+      <inertia ixx="0.005405" ixy="-0.000329" ixz="0.000192" iyy="0.080630" iyz="0.000000" izz="0.081901"/>
     </inertial>
   </link>
   <joint name="J4" type="revolute">

@@ -15,7 +15,7 @@
   <xacro:property name="J2_lower_limit" value="${-115*M_PI/180.0}"/>
 
   <xacro:property name="J3_upper_limit" value="${66*M_PI/180.0}"/>
-  <xacro:property name="J3_lower_limit" value="${-90*M_PI/180.0}"/>
+  <xacro:property name="J3_lower_limit" value="${-89.999999*M_PI/180.0}"/>
 
   <xacro:property name="J4_upper_limit" value="${200*M_PI/180.0}"/>
   <xacro:property name="J4_lower_limit" value="-${J4_upper_limit}"/>
@@ -77,7 +77,7 @@
                  mass="2.764278"
                  parent_link_name="link_3" child_link_name="link_4" joint_name="J4">
     <inertia ixx="0.005405" ixy="-0.000329" ixz="0.000192"
-             iyy="0.080630" iyz="0.081901"
+             iyy="0.080630" iyz="0.000000"
              izz="0.081901"/>
     <origin xyz="0.37 0 0.05" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
